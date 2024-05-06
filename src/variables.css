@@ -1,0 +1,12 @@
+:root {
+    --primary-color: rgb(253, 253, 65);
+    --secondary-color: rgb(253, 253, 65);
+    --light-orange: rgb(255, 138, 11);
+    --dark-orange: rgb(239, 115, 32);
+    --darker-orange: rgb(242, 80, 29);
+    --green: rgb(53, 170, 14);
+    --container-width: 1150px;
+    --text-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.5);
+    --box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  

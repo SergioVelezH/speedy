@@ -1,0 +1,119 @@
+.heroContainer {
+    width: 100vw;
+    background-image: url('../assets/fondo1.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 130px 0 200px 0;
+  }
+  .heroContainer h1 {
+    color: white;
+    text-shadow: var(--text-shadow);
+  }
+  .heroContainer h1 span {
+    color: var(--primary-color);
+  }
+  .heroContainer p {
+    color: white;
+    margin: 20px 0;
+    text-align: center;
+    font-size: large;
+    text-shadow: var(--text-shadow);
+    font-weight: 300;
+    margin-bottom: 60px;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+  }
+  .buttonContainer button {
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .buttonContainer button:first-child {
+    padding: 8px 40px;
+    background-color: var(--dark-orange);
+    margin-right: 40px;
+  }
+  .buttonContainer button:nth-child(2) {
+    padding: 8px 20px;
+    background-color: var(--green);
+  }
+  .imageContainer {
+    position: relative;
+    height: 240px;
+  }
+  .centralImage {
+    position: absolute;
+    z-index: 1000;
+    width: 280px;
+    top: -85px;
+    transform: translateX(-55%);
+  }
+  
+  .chainAddressContainer {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    height: 110px;
+    width: 650px;
+    background-color: var(--dark-orange);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: var(--box-shadow);
+  }
+  .chainAddressContainer img {
+    width: 70px;
+  }
+  
+  .chainAddressInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .chainAddressInfo span:first-child {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .chainAddressInfo span:nth-child(2) {
+    color: white;
+    font-weight: 200;
+    font-size: 0.7rem;
+  }
+  .copyButton {
+    background-color: transparent;
+    color: white;
+    font-size: 0.7rem;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 25px;
+  }
+  
+  .sponsorBanner {
+    position: relative;
+    margin-top: -230px;
+    display: grid;
+    place-content: center;
+    height: 400px;
+    width: 100vw;
+    background: var(--light-orange);
+    border-radius: 40%/12%;
+  }
+  .sponsorBanner span {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+  }
+  
